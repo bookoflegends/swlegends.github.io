@@ -1,0 +1,201 @@
+
+body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background:black;
+	width: 100%;
+    height: 100%;
+
+}
+
+.sw{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: Cinzel Decorative;
+    font-size: 140px;
+    left:10px;
+    letter-spacing:-10px;
+    color:rgb(243, 185, 77);
+
+}
+
+.book{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 65px;
+    left: 150px;
+    letter-spacing:-3px;
+    font-family:Ronet DEMO;
+    font-size: 100px;
+    color:rgb(243, 185, 77);
+
+}
+
+
+
+
+
+.title{
+
+    color: rgb(243, 185, 77);
+    font-family:Ogg;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    top: 10px;
+  
+}
+
+.tier1{
+    color: rgb(243, 185, 77);
+    font-family:Cinzel Decorative;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    
+
+}
+
+
+
+
+.title2{
+
+    color: rgb(243, 185, 77);
+    font-family:Cinzel Decorative;
+    position: relative;
+    top: 660px;
+    width: 20%;
+    left: 20em;
+
+
+}
+
+.title3 {
+
+    color: rgb(243, 185, 77);
+    top: 600px;
+    left: 900px;
+    position: relative;
+    font-family: Cinzel Decorative;
+    width: 10%;
+
+}
+
+.buttons {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 15%;
+  }
+  #main {
+    position: relative;
+   
+    bottom: 200px;
+    background-color:black;
+    font-family: Ogg;
+  }
+
+  #main2 {
+    position: relative;
+    bottom:360px;
+    background-color: black;
+    font-family: Ogg;
+
+
+  }
+
+  #main3{
+    position: relative;
+    bottom:520px;
+    background-color: black;
+    font-family: Ogg;
+
+  }
+
+  #main4{
+    position: relative;
+    bottom: 680px;
+    background-color: black;
+    font-family: Ogg;
+
+  }
+
+
+  .wrapper {
+    margin-top: 25px;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px
+  }
+
+  .peinz{
+    margin-top: 25px;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px
+
+
+  }
+  #btn {
+    stroke-width: 6px;
+    fill: transparent;
+    stroke: #FFF;
+    stroke-dasharray: 85 400;
+    stroke-dashoffset: -220;
+    transition: 1s all ease;
+  }
+  #btn-text {
+    margin-top: -35px;
+    text-align: center;
+  }
+  #btn-text a {
+    color: rgb(243, 185, 77);
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 1.1em;
+  }
+  .wrapper:hover #btn {
+    stroke-dasharray: 50 0;
+    stroke-width: 3px;
+    stroke-dashoffset: 0;
+    stroke: rgb(243, 185, 77);
+  }
+
+
+
+
+
+
+
+
+
+  
+
+
+/*  
+#canvas {
+	width: 100%; 
+	height: 100%;
+	background: black;
+	position: absolute;
+}
+#source {
+	visibility: hidden;
+}
+*/
